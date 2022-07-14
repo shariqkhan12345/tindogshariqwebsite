@@ -1,0 +1,180 @@
+/* -----------------------------------------HTML Elements ----------------------------------------*/
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat, sans-serif';
+  font-weight: 900;
+}
+
+/* -----------------------------------------Classes ----------------------------------------*/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.cta-text {
+  font-family: Montserrat;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.features-box {
+  padding: 5%;
+}
+
+/* Features Text */
+.featurestext {
+  color: #8f8f8f;
+}
+
+.feature-box-heading {
+  font-size: 1.5rem;
+}
+/* Icons Color */
+.fa-solid {
+  color: #ef8172;
+  padding: 1.5rem;
+}
+
+/* Hovering the icons */
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.footer-link {
+  margin: 20px 10px;
+}
+
+.footer-text {
+  font-family: Montserrat;
+  font-size: 0.8rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 15px;
+}
+
+.pricing-column {
+  padding: 3% 2%
+}
+
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricesection-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Title Image */
+.title-image-back {
+  position: relative;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.title-heading {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* -----------------------------------------ID's ----------------------------------------*/
+
+/* Centering Features Tab */
+#features {
+  position: relative;
+}
+
+/* Press Section */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+/* Title */
+#title {
+  text-align: left;}
+
+/* -----------------------------------------Media Queries ----------------------------------------*/
+@media (max-width: 992px) {
+  .title-image {
+    position: static;
+    transform: rotate(0deg);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* -----------------------------------------Combine Selectors ----------------------------------------*/
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  }
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
